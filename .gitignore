@@ -1,0 +1,4 @@
+# FinForge large datasets and local logs
+*.csv
+flagged_transactions.jsonl
+*.onnx

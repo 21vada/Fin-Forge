@@ -1,0 +1,26 @@
+=== FINFORGE MODEL COMPLEMENTARITY AUDIT ===
+
+Total transactions aligned: 88581
+
+1. OVERALL ALERT AGREEMENT (All Transactions)
+--------------------------------------------------
+Flagged by BOTH:         1004
+Flagged by RF ONLY:      186
+Flagged by XGBoost ONLY: 149
+Flagged by NEITHER:      87242
+
+2. FRAUD DETECTION COMPLEMENTARITY (Actual Fraud Only)
+--------------------------------------------------
+Caught by BOTH:          799
+Caught by RF ONLY:       107  <-- Unique RF value
+Caught by XGBoost ONLY:  75  <-- Unique XGB value
+Missed by BOTH:          2102
+
+3. STANDARDIZED RANKING METRICS (Single Evaluator)
+--------------------------------------------------
+Random Forest ROC-AUC:   0.8555
+Random Forest PR-AUC:    0.4346
+XGBoost ROC-AUC:         0.8548
+XGBoost PR-AUC:          0.4501
+
+Note: PR-AUC calculated using trapezoidal interpolation.

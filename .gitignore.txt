@@ -1,0 +1,6 @@
+# Ignore massive datasets and model outputs completely
+ieee-fraud-detection/
+finforgejava/bin/models/
+finforgejava/bin/reports/
+*.csv
+*.model

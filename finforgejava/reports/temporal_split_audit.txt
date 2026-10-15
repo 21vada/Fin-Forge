@@ -1,0 +1,5 @@
+TRAIN | Rows: 413378 | Fraud: 14538 | Fraud rate: 3.52% | TransactionDT range: 86400 to 10437996
+
+VALIDATION | Rows: 88581 | Fraud: 3042 | Fraud rate: 3.43% | TransactionDT range: 10438003 to 13151840
+
+TEST | Rows: 88581 | Fraud: 3083 | Fraud rate: 3.48% | TransactionDT range: 13151880 to 15811131

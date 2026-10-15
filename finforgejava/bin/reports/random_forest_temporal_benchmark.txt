@@ -1,0 +1,21 @@
+=== FINFORGE RANDOM FOREST BENCHMARK ===
+
+Training time: 323.7 seconds
+Selected threshold: 0.51
+Validation precision target met: true
+
+HELD-OUT TEST METRICS
+--------------------------------------
+Alerts:          1190
+True positives:  906
+False positives: 284
+False negatives: 2177
+True negatives:  85214
+Precision:       76.13%
+Recall:          29.39%
+F1 score:        42.41%
+
+RANKING METRICS
+--------------------------------------
+ROC-AUC:               0.8555
+PR-AUC:                0.4346

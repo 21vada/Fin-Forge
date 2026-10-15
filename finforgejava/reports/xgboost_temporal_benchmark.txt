@@ -1,0 +1,52 @@
+=== FINFORGE XGBOOST BENCHMARK ===
+
+DATA SPLIT
+--------------------------------------
+Training rows:        413378
+Validation rows:      88581
+Test rows:            88581
+
+MODEL CONFIGURATION
+--------------------------------------
+Features:             31
+Objective:            binary:logistic
+Tree method:          hist
+Maximum rounds:       500
+Best round count:     471
+Early stopping rounds: 35
+Validation AUC-PR:    0.47781724
+Training time:        27.4 seconds
+
+THRESHOLD SELECTION
+--------------------------------------
+Selected threshold:   0.84
+Validation precision target met: true
+
+Validation
+--------------------------------------
+Alerts:          1112
+True positives:  896
+False positives: 216
+False negatives: 2146
+True negatives:  85323
+Precision:       80.58%
+Recall:          29.45%
+Specificity:     99.75%
+F1 score:        43.14%
+
+HELD-OUT TEST RESULTS
+--------------------------------------
+Alerts:          1140
+True positives:  851
+False positives: 289
+False negatives: 2232
+True negatives:  85209
+Precision:       74.65%
+Recall:          27.60%
+Specificity:     99.66%
+F1 score:        40.30%
+
+RANKING METRICS
+--------------------------------------
+ROC-AUC:               0.8711
+PR-AUC (trapezoidal):  0.4593

@@ -1,0 +1,38 @@
+=== FINFORGE DATA AUDIT ===
+
+TRANSACTION DATA
+------------------------------
+Transaction rows: 590540
+Normal transactions: 569877
+Fraudulent transactions: 20663
+Fraud prevalence: 3.50%
+Minimum TransactionDT: 86400
+Maximum TransactionDT: 15811131
+Rows with missing TransactionDT: 0
+Rows earlier than preceding row: 0
+
+IDENTITY COVERAGE
+------------------------------
+Identity file rows: 144233
+Unique identity transaction IDs: 144233
+Transactions with identity match: 144233
+Identity match rate: 24.42%
+
+FRAUD RATE BY PRODUCT
+------------------------------
+W            | Rows:  439670 | Fraud:   8969 | Rate:   2.04%
+H            | Rows:   33024 | Fraud:   1574 | Rate:   4.77%
+C            | Rows:   68519 | Fraud:   8008 | Rate:  11.69%
+S            | Rows:   11628 | Fraud:    686 | Rate:   5.90%
+R            | Rows:   37699 | Fraud:   1426 | Rate:   3.78%
+
+FEATURE MISSINGNESS
+------------------------------
+TransactionAmt     | Missing:       0 | Rate:   0.00%
+ProductCD          | Missing:       0 | Rate:   0.00%
+card1              | Missing:       0 | Rate:   0.00%
+addr1              | Missing:   65706 | Rate:  11.13%
+dist1              | Missing:  352271 | Rate:  59.65%
+C1                 | Missing:       0 | Rate:   0.00%
+V1                 | Missing:  279287 | Rate:  47.29%
+V2                 | Missing:  279287 | Rate:  47.29%
