@@ -1,0 +1,58 @@
+{
+    "class_imbalance": {
+        "total_samples": 590540,
+        "fraud_samples": 20663,
+        "fraud_rate_pct": 3.499,
+        "scale_pos_weight": 27.5796
+    },
+    "feature_normalization": {
+        "TransactionDT": {
+            "mean": 7372311.3101,
+            "std": 4617223.6465,
+            "median": 7306527.5,
+            "min": 86400.0,
+            "max": 15811131.0,
+            "skew": 0.1312
+        },
+        "TransactionAmt": {
+            "mean": 135.0272,
+            "std": 239.1625,
+            "median": 68.769,
+            "min": 0.251,
+            "max": 31937.391,
+            "skew": 14.3745
+        },
+        "dist1": {
+            "mean": 52.585,
+            "std": 242.3532,
+            "median": 8.0,
+            "min": 0.0,
+            "max": 10286.0,
+            "skew": 8.2254
+        },
+        "C1": {
+            "mean": 14.0925,
+            "std": 133.569,
+            "median": 1.0,
+            "min": 0.0,
+            "max": 4685.0,
+            "skew": 23.958
+        },
+        "C13": {
+            "mean": 32.5399,
+            "std": 129.3648,
+            "median": 3.0,
+            "min": 0.0,
+            "max": 2918.0,
+            "skew": 8.9864
+        },
+        "time_delta": {
+            "mean": 166519.1783,
+            "std": 698737.6393,
+            "median": 5461.0,
+            "min": 0.0,
+            "max": 15599674.0,
+            "skew": 9.2628
+        }
+    }
+}
