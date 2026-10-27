@@ -10,7 +10,7 @@ The platform pairs a high-throughput **Java streaming ingestion engine** with an
 
 FinForge uses a multi-stage hybrid design to isolate noisy transaction categories while preserving high precision on high-risk transaction classes.
 
-'
+
                         ┌─────────────────────────────────────────┐
                         │      IEEE-CIS Transaction Stream        │
                         └────────────────────┬────────────────────┘
